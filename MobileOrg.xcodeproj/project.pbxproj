@@ -9,8 +9,6 @@
 /* Begin PBXBuildFile section */
 		18A3BBA316178BDD003D9320 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18A3BBA216178BDD003D9320 /* QuartzCore.framework */; };
 		18A3BBA716178DCD003D9320 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A3BBA616178DCD003D9320 /* Reachability.m */; };
-		18F871911617865500EB16D5 /* DropboxSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18F871901617865500EB16D5 /* DropboxSDK.framework */; };
-		18F871921617865500EB16D5 /* DropboxSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18F871901617865500EB16D5 /* DropboxSDK.framework */; };
 		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
 		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
 		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
@@ -19,6 +17,7 @@
 		28C3AD8A0F43EF2300507BA6 /* MobileOrg.xcdatamodel in Sources */ = {isa = PBXBuildFile; fileRef = 28C3AD890F43EF2300507BA6 /* MobileOrg.xcdatamodel */; };
 		28D801B40F44B63D00FB423F /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28D801B30F44B63D00FB423F /* CoreData.framework */; };
 		4A48B06A17049B5900549A0A /* GHUnitIOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A48B06917049B5900549A0A /* GHUnitIOS.framework */; };
+		4A48B06C17049E6600549A0A /* DropboxSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A48B06B17049E6600549A0A /* DropboxSDK.framework */; };
 		5A49BC7512DCFD5700662472 /* NodeTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A49BC7412DCFD5700662472 /* NodeTest.m */; };
 		5A49BCBE12DD019300662472 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28D801B30F44B63D00FB423F /* CoreData.framework */; };
 		5A4DD89212DE21B800505566 /* libicucore.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 79CB19511074396500A7E065 /* libicucore.dylib */; };
@@ -126,7 +125,6 @@
 		18A3BBA216178BDD003D9320 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		18A3BBA516178DCD003D9320 /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
 		18A3BBA616178DCD003D9320 /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
-		18F871901617865500EB16D5 /* DropboxSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = DropboxSDK.framework; sourceTree = "<group>"; };
 		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		1D6058910D05DD3D006BFB54 /* MobileOrg.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MobileOrg.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
@@ -137,6 +135,7 @@
 		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		32CA4F630368D1EE00C91783 /* MobileOrg_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MobileOrg_Prefix.pch; sourceTree = "<group>"; };
 		4A48B06917049B5900549A0A /* GHUnitIOS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GHUnitIOS.framework; sourceTree = "<group>"; };
+		4A48B06B17049E6600549A0A /* DropboxSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = DropboxSDK.framework; sourceTree = "<group>"; };
 		5A49BC7412DCFD5700662472 /* NodeTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NodeTest.m; sourceTree = "<group>"; };
 		5A96678612DC83ED00CD02F5 /* UnitTests.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UnitTests.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5A96678812DC83ED00CD02F5 /* UnitTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "UnitTests-Info.plist"; sourceTree = "<group>"; };
@@ -274,8 +273,8 @@
 				79CB19521074396500A7E065 /* libicucore.dylib in Frameworks */,
 				793F7F6C107CB5FC00674D0A /* SystemConfiguration.framework in Frameworks */,
 				7945F61211A807FD00731598 /* Security.framework in Frameworks */,
-				18F871911617865500EB16D5 /* DropboxSDK.framework in Frameworks */,
 				4A48B06A17049B5900549A0A /* GHUnitIOS.framework in Frameworks */,
+				4A48B06C17049E6600549A0A /* DropboxSDK.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -288,7 +287,6 @@
 				5A9667A912DC84EA00CD02F5 /* UIKit.framework in Frameworks */,
 				5A49BCBE12DD019300662472 /* CoreData.framework in Frameworks */,
 				5A4DD89212DE21B800505566 /* libicucore.dylib in Frameworks */,
-				18F871921617865500EB16D5 /* DropboxSDK.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -359,9 +357,9 @@
 		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				4A48B06B17049E6600549A0A /* DropboxSDK.framework */,
 				4A48B06917049B5900549A0A /* GHUnitIOS.framework */,
 				18A3BBA216178BDD003D9320 /* QuartzCore.framework */,
-				18F871901617865500EB16D5 /* DropboxSDK.framework */,
 				7945F61111A807FD00731598 /* Security.framework */,
 				793F7F6B107CB5FC00674D0A /* SystemConfiguration.framework */,
 				79CB19511074396500A7E065 /* libicucore.dylib */,
